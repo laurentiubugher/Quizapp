@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleTextSize">40sp</dimen>
+    <dimen name="titleMarginTop">50dp</dimen>
+    <dimen name="startButtonTextSize">18sp</dimen>
+    <dimen name="editText_margin_top">130dp</dimen>
+
+
+
+</resources>
