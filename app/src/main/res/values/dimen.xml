@@ -3,8 +3,14 @@
     <dimen name="titleTextSize">40sp</dimen>
     <dimen name="titleMarginTop">50dp</dimen>
     <dimen name="startButtonTextSize">18sp</dimen>
-    <dimen name="editText_margin_top">130dp</dimen>
-
-
-
+    <dimen name="editText_margin_top">50dp</dimen>
+    <dimen name="startButton_marginTop">60dp</dimen>
+    <dimen name="introImage_marginTop">30dp</dimen>
+    <dimen name="question_margin">14dp</dimen>
+    <dimen name="questionTextSize">16sp</dimen>
+    <dimen name="answerTextSize">14sp</dimen>
+    <dimen name="radioButton_marginBottom">8dp</dimen>
+    <dimen name="submitButton_margin">30dp</dimen>
+    <dimen name="last_layout_margin">24dp</dimen>
+    <dimen name="noWidth">0dp</dimen>
 </resources>

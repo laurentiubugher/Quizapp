@@ -15,14 +15,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //** This method start the Quizz activity and pass the player name to other activities
-    public void startQuiz(View view) {
+    public void startQuiz(View v) {
         EditText name = findViewById(R.id.name_editText);
         String playerName = name.getText().toString();
-        Intent QuizzActivity = new Intent(this, Quiz.class);
-        QuizzActivity.putExtra("player_name", playerName);
-        if (QuizzActivity.resolveActivity(getPackageManager()) != null) {
-            MainActivity.this.startActivity(QuizzActivity);
-        }
-        MainActivity.this.startActivity(QuizzActivity);
+        Intent quiz = new Intent(this, QuizActivity.class);
+        quiz.putExtra("player_name", playerName);
+        startActivity(quiz);
     }
 }
