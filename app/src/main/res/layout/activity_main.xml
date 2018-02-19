@@ -16,7 +16,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/titleMarginTop"
             android:text="@string/titleText"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/titleTextSize"
             android:textStyle="italic" />
 
@@ -25,11 +25,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/editText_margin_top"
-            android:backgroundTint="@android:color/black"
+            android:backgroundTint="@color/Black_Color"
             android:hint="@string/name_editText"
             android:inputType="textCapWords"
-            android:textColor="@android:color/black"
-            android:textColorHint="@android:color/black" />
+            android:textColor="@color/Black_Color"
+            android:textColorHint="@color/Black_Color" />
 
         <ImageView
             android:layout_width="match_parent"
@@ -47,7 +47,7 @@
             android:background="@color/startButtonColor"
             android:onClick="startQuiz"
             android:text="@string/startButtonText"
-            android:textColor="@android:color/white"
+            android:textColor="@color/White_Color"
             android:textSize="@dimen/startButtonTextSize"
             android:textStyle="italic" />
     </LinearLayout>

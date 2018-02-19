@@ -40,4 +40,7 @@
     <string name="checkAnswersButtonText">CHECK ANSWERS</string>
     <string name="shareButton">SHARE</string>
     <string name="repeatButton">REPEAT</string>
+    <string name="congratsToastMessage">Congratulations, %1$s! Your score is %2$d out of 8. Well done!</string>
+    <string name="tryAgainToastMessage">%1$s you failed. Your score is %2$d out of 8. Try again!</string>
+
 </resources>

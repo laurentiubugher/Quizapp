@@ -14,7 +14,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/first_question"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/questionTextSize"
             android:textStyle="italic" />
 
@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/radioButton_marginBottom"
                 android:text="@string/first_question_1RadioButton"
-                android:textColor="@android:color/black"
+                android:textColor="@color/Black_Color"
                 android:textSize="@dimen/answerTextSize" />
 
             <RadioButton
@@ -43,23 +43,23 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/radioButton_marginBottom"
                 android:text="@string/first_question_2RadioButton"
-                android:textColor="@android:color/black"
+                android:textColor="@color/Black_Color"
                 android:textSize="@dimen/answerTextSize" />
 
             <RadioButton
-                android:id="@+id/q1C"
+                android:id="@+id/q1_rb_Tesla"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/radioButton_marginBottom"
                 android:text="@string/first_question_3RadioButton"
-                android:textColor="@android:color/black"
+                android:textColor="@color/Black_Color"
                 android:textSize="@dimen/answerTextSize" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/first_question_4RadioButton"
-                android:textColor="@android:color/black"
+                android:textColor="@color/Black_Color"
                 android:textSize="@dimen/answerTextSize" />
 
         </RadioGroup>
@@ -69,7 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/second_question"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/questionTextSize"
             android:textStyle="italic" />
 
@@ -90,16 +90,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/radioButton_marginBottom"
                 android:text="@string/second_question_radioButton1"
-                android:textColor="@android:color/black"
+                android:textColor="@color/Black_Color"
                 android:textSize="@dimen/answerTextSize" />
 
             <RadioButton
-                android:id="@+id/q2B"
+                android:id="@+id/q2_rb_i8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/radioButton_marginBottom"
                 android:text="@string/second_question_radioButton2"
-                android:textColor="@android:color/black"
+                android:textColor="@color/Black_Color"
                 android:textSize="@dimen/answerTextSize" />
 
             <RadioButton
@@ -107,14 +107,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/radioButton_marginBottom"
                 android:text="@string/second_question_radioButton3"
-                android:textColor="@android:color/black"
+                android:textColor="@color/Black_Color"
                 android:textSize="@dimen/answerTextSize" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/second_question_radioButton4"
-                android:textColor="@android:color/black"
+                android:textColor="@color/Black_Color"
                 android:textSize="@dimen/answerTextSize" />
 
         </RadioGroup>
@@ -124,7 +124,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/third_question"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/questionTextSize"
             android:textStyle="italic" />
 
@@ -139,18 +139,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
-            android:backgroundTint="@android:color/black"
+            android:backgroundTint="@color/Black_Color"
             android:hint="@string/question_editTextHint"
             android:inputType="textCapWords"
-            android:textColor="@android:color/black"
-            android:textColorHint="@android:color/black" />
+            android:textColor="@color/Black_Color"
+            android:textColorHint="@color/Black_Color" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/fourth_question"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/questionTextSize"
             android:textStyle="italic" />
 
@@ -159,18 +159,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
-            android:backgroundTint="@android:color/black"
+            android:backgroundTint="@color/Black_Color"
             android:hint="@string/question_editTextHint"
             android:inputType="textCapWords"
-            android:textColor="@android:color/black"
-            android:textColorHint="@android:color/black" />
+            android:textColor="@color/Black_Color"
+            android:textColorHint="@color/Black_Color" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/fifth_question"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/questionTextSize"
             android:textStyle="italic" />
 
@@ -181,39 +181,39 @@
             android:src="@drawable/bentley_img" />
 
         <CheckBox
-            android:id="@+id/q5CB1"
+            android:id="@+id/q5CheckBox_RollsRoyce"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/fifth_question_1CheckBox"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/answerTextSize" />
 
         <CheckBox
-            android:id="@+id/q5CB2"
+            android:id="@+id/q5CheckBox_Bentley"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/fifth_question_2CheckBox"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/answerTextSize" />
 
         <CheckBox
-            android:id="@+id/q5CB3"
+            android:id="@+id/q5CheckBox_manufacturedInEngland"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/fifth_question_3CheckBox"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/answerTextSize" />
 
         <CheckBox
-            android:id="@+id/q5CB4"
+            android:id="@+id/q5CheckBox_manufacturedInGermany"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/fifth_question_4CheckBox"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/answerTextSize" />
 
         <TextView
@@ -221,7 +221,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/sixth_question"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/questionTextSize"
             android:textStyle="italic" />
 
@@ -232,39 +232,39 @@
             android:src="@drawable/audi_img" />
 
         <CheckBox
-            android:id="@+id/q6CB1"
+            android:id="@+id/q6CheckBox_Porsche"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/sixth_question_1CheckBox"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/answerTextSize" />
 
         <CheckBox
-            android:id="@+id/q6CB2"
+            android:id="@+id/q6CheckBox_Audi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/sixth_question_2CheckBox"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/answerTextSize" />
 
         <CheckBox
-            android:id="@+id/q6CB3"
+            android:id="@+id/q6CheckBox_i8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/sixth_question_3CheckBox"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/answerTextSize" />
 
         <CheckBox
-            android:id="@+id/q6CB4"
+            android:id="@+id/q6CheckBox_R8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/sixth_question_4CheckBox"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/answerTextSize" />
 
         <TextView
@@ -272,7 +272,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/seventh_question"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/questionTextSize"
             android:textStyle="italic" />
 
@@ -293,7 +293,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/radioButton_marginBottom"
                 android:text="@string/seventh_question_1RadioButton"
-                android:textColor="@android:color/black"
+                android:textColor="@color/Black_Color"
                 android:textSize="@dimen/answerTextSize" />
 
             <RadioButton
@@ -301,7 +301,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/radioButton_marginBottom"
                 android:text="@string/seventh_question_2RadioButton"
-                android:textColor="@android:color/black"
+                android:textColor="@color/Black_Color"
                 android:textSize="@dimen/answerTextSize" />
 
             <RadioButton
@@ -309,15 +309,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/radioButton_marginBottom"
                 android:text="@string/seventh_question_3RadioButton"
-                android:textColor="@android:color/black"
+                android:textColor="@color/Black_Color"
                 android:textSize="@dimen/answerTextSize" />
 
             <RadioButton
-                android:id="@+id/q7D"
+                android:id="@+id/q7_rb_Lamborghini"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/seventh_question_4RadioButton"
-                android:textColor="@android:color/black"
+                android:textColor="@color/Black_Color"
                 android:textSize="@dimen/answerTextSize" />
         </RadioGroup>
 
@@ -326,7 +326,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/eighth_question"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/questionTextSize"
             android:textStyle="italic" />
 
@@ -337,39 +337,39 @@
             android:src="@drawable/volvo_img" />
 
         <CheckBox
-            android:id="@+id/q8CB1"
+            android:id="@+id/q8CheckBox_RangeRover"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/eighth_question_1CheckBox"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/answerTextSize" />
 
         <CheckBox
-            android:id="@+id/q8CB2"
+            android:id="@+id/q8CheckBox_Volvo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/eighth_question_2CheckBox"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/answerTextSize" />
 
         <CheckBox
-            android:id="@+id/q8CB3"
+            android:id="@+id/q8CheckBox_Sport"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/eighth_question_3CheckBox"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/answerTextSize" />
 
         <CheckBox
-            android:id="@+id/q8CB4"
+            android:id="@+id/q8CheckBox_SUV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/question_margin"
             android:text="@string/eighth_question_4CheckBox"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Black_Color"
             android:textSize="@dimen/answerTextSize" />
 
         <Button
@@ -381,7 +381,7 @@
             android:background="@color/startButtonColor"
             android:onClick="submitAnswers"
             android:text="@string/checkAnswersButtonText"
-            android:textColor="@android:color/white"
+            android:textColor="@color/White_Color"
             android:textSize="@dimen/startButtonTextSize"
             android:textStyle="italic" />
 
@@ -405,7 +405,7 @@
                     android:background="@color/startButtonColor"
                     android:onClick="shareResults"
                     android:text="@string/shareButton"
-                    android:textColor="@android:color/white"
+                    android:textColor="@color/White_Color"
                     android:textSize="@dimen/startButtonTextSize"
                     android:textStyle="italic" />
 
@@ -427,7 +427,7 @@
                     android:gravity="center"
                     android:onClick="restartApp"
                     android:text="@string/repeatButton"
-                    android:textColor="@android:color/white"
+                    android:textColor="@color/White_Color"
                     android:textSize="@dimen/startButtonTextSize"
                     android:textStyle="italic" />
             </LinearLayout>
